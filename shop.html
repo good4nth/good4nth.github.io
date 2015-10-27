@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nerds</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:500,300&amp;subset=cyrillic" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container clearfix">
+            <figure class="main-logo">
+                <img src="img/main-logo.png" alt="Nerds">
+            </figure>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="index.html">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li class="active"><a href="shop.html">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a class="icon-basket" href="#">Корзина</a>
+            </div>
+        </div>
+        <div class="header">
+            <h1 class="header-title">Добро пожаловать в магазин<br> готовых макетов</h1>
+        </div>
+    </header>
+    <div class="shop-content">
+        <div class="container clearfix">
+            <div class="choose-block">
+                <div class="choose-block_price clearfix">
+                    <strong>Стоимость:</strong>
+                    <div class="range-filter">
+                        <div class="range-controls">
+                            <div class="scale">
+                                <div class="bar" style="width:70%"></div>
+                            </div>
+                            <div class="toggle min-toggle"></div>
+                            <div class="toggle max-toggle"></div>
+                        </div>
+                        <div class="price-controls">
+                            от
+                            <input class="min-price" type="text" value="0"> до
+                            <input class="max-price" type="text" value="15 000">
+                        </div>
+                    </div>
+                </div>
+                <strong>Сетка:</strong>
+                <input type="radio" id="adapted-field" name="grid-choose" value="adapted" checked>
+                <label for="adapted-field" class="clearfix">Адаптивная</label>
+                <input type="radio" id="fixed-field" name="grid-choose" value="fixed">
+                <label for="fixed-field" class="clearfix">Фиксированная</label>
+                <input type="radio" id="stretch-field" name="grid-choose" value="stretch">
+                <label for="stretch-field" class="clearfix">Резиновая</label>
+
+                <strong>Особенности:</strong>
+                <input type="checkbox" id="slider-field" name="specified-choose" value="slider" checked>
+                <label for="slider-field" class="clearfix">Слайдер</label>
+                <input type="checkbox" id="features-block-field" name="specified-choose" value="features-block">
+                <label for="features-block-field" class="clearfix">Блок преимуществ</label>
+                <input type="checkbox" id="news-block-field" name="specified-choose" value="news-block" checked>
+                <label for="news-block-field" class="clearfix">Новости</label>
+                <input type="checkbox" id="gallery-field" name="specified-choose" value="gallery">
+                <label for="gallery-field" class="clearfix">Галерея</label>
+                <input type="checkbox" id="cart-field" name="specified-choose" value="cart">
+                <label for="cart-field" class="clearfix">Корзина</label>
+
+            </div>
+            <div class="sell-block">
+                <ul class="item-filter">
+                    <li><span>Сортировать:</span></li>
+                    <li><a class="select-link select-link-active" href="javascript:void(0)">по цене</a></li>
+                    <li><a class="select-link" href="javascript:void(0)">по типу</a></li>
+                    <li> <a class="select-link" href="javascript:void(0)">по функционалу</a></li>
+                    <li>
+                        <a href="javascript:void(0)" class="select-link sort-down sort-down-active"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="select-link sort-up"></a>
+                    </li>
+                </ul>
+
+                <!-- Блок образца -->
+                <div class="sample">
+                    <img src="img/example-1.png" alt="Сайт библиотеки">
+                    <!-- Описание образца -->
+                    <div class="sample-info">
+                        <span class="sample-title">Aviator</span>
+                        <p>Интернет-магазин
+                            <br/>с личным кабинетом</p>
+                        <a class="btn link-sample-info">10 000 Р.</a>
+                    </div>
+                </div>
+
+                <div class="sample">
+                    <img src="img/example-2.png" alt="Интернет-магазин">
+                    <!-- Описание образца -->
+                    <div class="sample-info">
+                        <span class="sample-title">Beach</span>
+                        <p>Интернет-магазин
+                            <br/>с личным кабинетом</p>
+                        <a class="btn link-sample-info">15 000 Р.</a>
+                    </div>
+                </div>
+
+                <div class="sample">
+                    <img src="img/example-3.png" alt="Корпоративный сайт">
+                    <!-- Описание образца -->
+                    <div class="sample-info">
+                        <span class="sample-title">forte</span>
+                        <p>Интернет-магазин с личным кабинетом</p>
+                        <a class="btn link-sample-info">20 000 Р.</a>
+                    </div>
+                </div>
+
+                <div class="sample">
+                    <img src="img/example-4.png" alt="Блог">
+                    <!-- Описание образца -->
+                    <div class="sample-info">
+                        <span class="sample-title">marquee</span>
+                        <p>Интернет-магазин
+                            <br/>с личным кабинетом</p>
+                        <a class="btn link-sample-info">30 000 Р.</a>
+                    </div>
+                </div>
+
+                <div class="sample">
+                    <img src="img/example-5.png" alt="Портфолио">
+                    <!-- Описание образца -->
+                    <div class="sample-info">
+                        <span class="sample-title">Avenue</span>
+                        <p>Изящная презентация ваших работ</p>
+                        <a class="btn link-sample-info">35 000 Р.</a>
+                    </div>
+                </div>
+
+                <div class="sample">
+                    <img src="img/example-6.png" alt="Журнал">
+                    <!-- Описание образца -->
+                    <div class="sample-info">
+                        <span class="sample-title">Dovetail</span>
+                        <p>Эксклюзивный дизайн для ценителей моды</p>
+                        <a class="btn link-sample-info">40 000 Р.</a>
+                    </div>
+                </div>
+
+                <nav>
+                    <a class="number-page active" href="javascript:void(0)">1</a>
+                    <a class="number-page" href="javascript:void(0)">2</a>
+                    <a class="number-page" href="javascript:void(0)">3</a>
+                    <a class="next-page" href="javascript:void(0)">Следующая</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="location">
+        <div class="container clearfix">
+            <div class="feedback">
+                <h2><span>Nërds</span> design studio</h2>
+                <p>350000, Краснодар,
+                    <br> ул. Головатого, 100</p>
+                <p>тел. +7 (861) 275-75-75</p>
+                <a class="feed-back-link" href="javascript:void(0)">Напишите нам</a>
+            </div>
+            <form class="feed-back-form" action="javascript:void(0)" method="post">
+                <label>Ваше имя:
+                    <br/>
+                    <input type="text" name="name" class="name-field" placeholder="Представьтесь, пожалуйста">
+                </label>
+                <label>Ваш e-mail:
+                    <br/>
+                    <input type="email" name="email" class="email-field" placeholder="Для отправки ответа">
+                </label>
+                <label for="message">Текст письма:</label>
+                <br/>
+                <textarea id="message" class="message-field clearfix" name="massage" rows="5" placeholder="В свободной форме"></textarea>
+                <input type="submit" class="btn-action red" value="Отправить">
+                <a class="btn-action red cancel-submit js-feed-back-form_close">Отмена</a>
+            </form>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="container clearfix">
+            <div class="footer-social">
+                <a href="#" class="social-btn social-btn-vk"></a>
+                <a href="#" class="social-btn social-btn-fb"></a>
+                <a href="#" class="social-btn social-btn-inst"></a>
+            </div>
+            <div class="footer-stock">
+                <h2 class="footer-social-title">Давайте дружить, это выгодно!</h2>
+                <p>Скидка 10% для друзей из социальных сетей</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
